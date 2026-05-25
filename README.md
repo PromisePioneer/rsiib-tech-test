@@ -36,7 +36,7 @@ php artisan key:generate
 Edit `.env`, sesuaikan konfigurasi database:
 
 ```
-DB_DATABASE=rawat_jalan
+DB_DATABASE=rsiib-tech-test
 DB_USERNAME=root
 DB_PASSWORD=
 ```
