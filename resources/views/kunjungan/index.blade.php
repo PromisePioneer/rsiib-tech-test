@@ -57,8 +57,7 @@
                     @endif
                 </td>
                 <td class="px-4 py-3">
-                    <div class="flex items-center justify-end gap-1">
-                        {{-- Asesmen --}}
+                    <div class="flex items-center justify-end gap-2">
                         @if($kunjunganTerakhir && $kunjunganTerakhir->status === 'terdaftar')
                             <a href="{{ route('asesmen.create', $kunjunganTerakhir) }}"
                                class="inline-flex items-center px-2.5 py-1 text-xs font-medium text-green-700 bg-green-50 hover:bg-green-100 rounded-md transition-colors">
